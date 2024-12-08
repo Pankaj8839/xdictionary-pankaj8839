@@ -18,7 +18,7 @@ function App() {
   const handleClick = () => {
     let mean = "";
     Dictionary.forEach((item) => {
-      if (item.word.toLocaleLowerCase() === word) {
+      if (item.word === word) {
         mean= item.meaning;
       }
     });
